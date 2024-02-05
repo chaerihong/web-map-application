@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Legend styling */
+#legend {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.legend-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.legend-scale {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.legend-scale li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legend-rect {
+    width: 24px;
+    height: 18px;
+    border: 1px solid #999;
+    float: left;
+    margin-right: 10px;
+}
+
+/* Title and subtitle styling */
+#title, #subtitle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#title {
+    font-size: 18pt;
+    color: #333;
+}
+
+#subtitle {
+    font-size: 12pt;
+    color: #666;
+    top: 70px;
+}
+
+/* Hyperlink styling */
+a {
+    color: #0078A8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
